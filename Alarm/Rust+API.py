@@ -34,7 +34,7 @@ async def check_rust_alarm():
 async def main():
     while True:
         await check_rust_alarm()
-        await asyncio.sleep(3)  #Check for Alarm detection every 3 sec. Chan change for your liking
+        await asyncio.sleep(3)  #Check for Alarm detection every 3 sec. Can change for your liking
 
 # Run the program
 if __name__ == "__main__":

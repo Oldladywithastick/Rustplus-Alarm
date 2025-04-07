@@ -1,20 +1,37 @@
-# Rustplus-Alarm
-A python program that is able to light up an LED if a Smart Alarm is triggered in the game Rust. 
-Python Libraries used in this Project: 
-  -RPi.GPIO
-  -Time
-  -asyncio 
-  -os
-  -rustplus
+🚨 Rustplus-Alarm
 
-Steps to it work: 
-1. connect LED to Raspberry PI / Arduino
-2. Get SteamID (Copy via Steam)
-3. Get Rust Server IP (Can check via the Rust Console)
-4. Get PlayerToken (Check with Rustplus Chrome Addon https://chromewebstore.google.com/detail/rustpluspy-link-companion/gojhnmnggbnflhdcpcemeahejhcimnlf?pli=1)
-5. Get EntityID (Place and connect the smart Alarm)
-6. Pair it with the Rust+ App while using the Chrome addon.
-7. Copy EntityID and all other info into the server details section in Rust+API.py
-8. Copy the LEDLoop.py and Rust+API.py to the Raspberry PI
-9. Create a virtual environment to install all needed libraries
-10. In the virtual environment type: python Rust+APi.py
+A Python program that lights up an LED on a Raspberry Pi or Arduino when a Smart Alarm is triggered in the game Rust, using the Rust+ Companion API.
+
+🧰 Libraries Used
+    
+    RPi.GPIO
+    time
+    asyncio
+    os
+    rustplus
+
+🔧 Setup Instructions
+    
+    Connect an LED to your Raspberry Pi / Arduino.
+    
+    Get your SteamID
+    📋 (Right-click your profile in Steam → Copy Page URL → Grab the number)
+
+    Get the Rust server IP
+    📡 (Join the server → Open the Rust console → Use player.ip or look at logs)
+
+    Get your Player Token
+    🔐 Use the Rust+ Chrome Addon
+
+    Get the EntityID of your Smart Alarm
+    📱 Place and pair your alarm using the Rust+ app and Chrome addon
+
+   Create a virtual environment:
+      python3 -m venv venv
+      source venv/bin/activate
+
+  Install dependencies (Inside your virtual environment)
+      pip install rustplus RPi.GPIO
+
+  Run the Script:
+      python Rust+API.py

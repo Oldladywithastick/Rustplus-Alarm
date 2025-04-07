@@ -39,7 +39,7 @@ A Python program that lights up an LED on a Raspberry Pi or Arduino when a Smart
 
 ## 🛠️ Setting Up & Running
 
-### 1. Create a virtual environment
+### 1. Create a virtual environment, Install dependencies and run the Script
 ```bash
 python3 -m venv venv
 source venv/bin/activate

@@ -44,14 +44,9 @@ A Python program that lights up an LED on a Raspberry Pi or Arduino when a Smart
 python3 -m venv venv
 source venv/bin/activate
 
----
+2. Install dependencies (inside the virtual environment)
 
-### 2. Install dependencies (inside the virtual environment)
-```bash
-pip install rustplus RPi.GPIO
+   pip install rustplus RPi.GPIO
 
----
-
-### 3. Run the Script
-```bash
-pip install rustplus RPi.GPIO
+3. Run the Script
+   pip install rustplus RPi.GPIO

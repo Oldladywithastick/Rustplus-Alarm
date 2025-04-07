@@ -25,17 +25,19 @@ A Python program that lights up an LED on a Raspberry Pi or Arduino when a Smart
 
     Get the EntityID of your Smart Alarm
     📱 Place and pair your alarm using the Rust+ app and Chrome addon
+
+    Configure Rust+API.py with your SteamID, PlayerToken and EntityID of the smart alarm
     
 🛠️ Setting Up & Running
 1. Create a virtual environment
-
+    ```bash
     python3 -m venv venv
     source venv/bin/activate
 
 2. Install dependencies (inside the virtual environment)
-
+    ```bash
     pip install rustplus RPi.GPIO
 
 3. Run the script
-
+    ```bash
     python Rust+API.py

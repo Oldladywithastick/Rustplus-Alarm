@@ -21,7 +21,7 @@ A Python program that lights up an LED on a Raspberry Pi or Arduino when a Smart
     📡 (Join the server → Open the Rust console → Use player.ip or look at logs)
 
     Get your Player Token
-    🔐 Use the Rust+ Chrome Addon
+    🔐 Use the Rust+ Chrome Addon (https://chromewebstore.google.com/detail/rustpluspy-link-companion/gojhnmnggbnflhdcpcemeahejhcimnlf?pli=1)
 
     Get the EntityID of your Smart Alarm
     📱 Place and pair your alarm using the Rust+ app and Chrome addon
@@ -29,13 +29,13 @@ A Python program that lights up an LED on a Raspberry Pi or Arduino when a Smart
 🛠️ Setting Up & Running
 1. Create a virtual environment
 
-    ```python3 -m venv venv
-    ```source venv/bin/activate
+    python3 -m venv venv
+    source venv/bin/activate
 
 2. Install dependencies (inside the virtual environment)
 
-    ```pip install rustplus RPi.GPIO
+    pip install rustplus RPi.GPIO
 
 3. Run the script
 
-    ```python Rust+API.py
+    python Rust+API.py

@@ -49,4 +49,4 @@ source venv/bin/activate
    pip install rustplus RPi.GPIO
 
 3. Run the Script
-   pip install rustplus RPi.GPIO
+   python3 Rust+API.py
